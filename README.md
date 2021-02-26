@@ -48,4 +48,4 @@ $ Python {script}.py
 ---
 
 ### References
-1. 
+1. Tereza Soukupova and Jan ´ Cech, Real-Time Eye Blink Detection using Facial Landmarks, https://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf
