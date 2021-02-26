@@ -5,6 +5,10 @@ Author: Tackhyun Jung
 
 Status: 완료
 
+![1](https://user-images.githubusercontent.com/41291493/109273272-50ea0780-7855-11eb-86f2-8b38194d2d17.png)
+![2](https://user-images.githubusercontent.com/41291493/109273283-534c6180-7855-11eb-9e46-c6b297ea6b8a.png)
+![3](https://user-images.githubusercontent.com/41291493/109273285-53e4f800-7855-11eb-8863-4398504291eb.png)
+
 ### 핵심목표
 1) CNN 모델 구현 및 학습 메커니즘 구현 `retrain.py`
 2) CNN 모델 기반의 이미지 분류 `prediction.py`
