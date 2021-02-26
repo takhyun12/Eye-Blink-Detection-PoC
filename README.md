@@ -10,43 +10,38 @@ Status: 완료
 ![3](https://user-images.githubusercontent.com/41291493/109273285-53e4f800-7855-11eb-8863-4398504291eb.png)
 
 ### 핵심목표
-1) CNN 모델 구현 및 학습 메커니즘 구현 `retrain.py`
-2) CNN 모델 기반의 이미지 분류 `prediction.py`
-3) CNN 모델의 학습 결과 시각화 `tensorboard.py`
-4) 클라이언트/서버 환경애서 해당 모델 활용 방안 예시 `server.py` `client.py` 
-5) python 코드를 C# windows 소프트웨어에서 활용하는 방안에 대한 예시 `CNN_UI`
+1) 실시간 동영상에서 프레임 단위로 눈 깜빡임 횟수 추적
+2) 눈 깜빡임 횟수에서의 이상 탐지
+3) 화면에 눈 깜빡임 횟수, EAR의 수치 등을 표시
 
 ---
 
 ### 사용된 기술
-* CNN(Convolutional Neural Networks)
-* Socket
-* Multi Processing, Multi threading
-* google Inception v3
+* EAR(Eye Aspect Ratio)
+* Face Detection
+* Eye blinks Tracker
 
 #### What is eye aspect ratio (EAR)?
 From the last project - Detecting facial landmarks - we know that we can apply facial landmark detection to localize important regions of the face, including eyes, eyebrows, nose, ears, and mouth. This also implies that we can extract specific facial structures by knowing the indexes of the particular face parts. In terms of blink detection, we are only interested in two sets of facial structures — the eyes.
-
 ---
 
 ### Requirement
 * Python 3x
-* tensorflow
-* keras
+* distance
+* FileVideoStream
+* VideoStream
+* imutils
 * numpy
-* tarfile
+* cv2
+* dlib
+* openface
 * threading
-* socket
-
-`CNN_UI`에만 해당
-* C# (.NET FRAMEWORK 3.5 이상)
-
 ---
 
 ### Usage
 
 ```
-$ Python {script}.py
+$ Python main.py
 ```
 
 ---
