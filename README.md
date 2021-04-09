@@ -1,4 +1,4 @@
-# Detection of Eye blinks Pattern
+# Eye Blink Detection
 #### `EAR(Eye Aspect Ratio)` 알고리즘 기반의 눈 깜빡임 측정 및 간단한 이상탐지 PoC
 
 Author: Tackhyun Jung
